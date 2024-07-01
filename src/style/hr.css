@@ -1,0 +1,12 @@
+.hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .hr > div {
+    height: 10px;
+    width: 40px;
+    background-color: white;
+  }
+  

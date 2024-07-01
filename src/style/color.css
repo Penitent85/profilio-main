@@ -1,0 +1,14 @@
+:root {
+    --color-main-dark: rgb(47, 61, 83);
+    --color-main-light: rgb(102, 117, 142);
+    --color-main-black-dark: rgb(1, 6, 15);
+    --color-main-black-light: rgba(234, 239, 248, 0.81);
+    --color: #fd6f00;
+    --colo-linear: #e46400;
+    --color-gray: #959595;
+    --color-dark: #bababa;
+    --color-dark-hover: #959595;
+    --color-bg: #0b0b0b;
+    --color-dark-active: #707070;
+    --color-darker: #575757;
+  }

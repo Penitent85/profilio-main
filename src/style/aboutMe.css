@@ -1,0 +1,324 @@
+.aboutMe {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutMe > .about-paragraph { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px;
+}
+.aboutMe > .about-paragraph  p{
+  font-weight: bold;
+}
+.aboutMe .img-paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.aboutMe h1 {
+  font-size: 40px;
+  color: white;
+  margin: 20px auto;
+}
+
+.aboutMe p {
+  text-align: justify;
+}
+.aboutMe p {
+  font-size: 20px;
+  margin: 10px auto;
+  color: var(--color-dark-hover);
+}
+
+.aboutMe .img-paragraph .img {
+  background-color: #272727;
+  border-radius: 50% 50% 0 0 ;
+  padding: 10px;
+  margin: 20px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  position: relative;
+  overflow: hidden; 
+}
+ 
+ 
+
+.aboutMe .img-paragraph .img > img {
+   
+  height: 740px;
+  padding: 10px;
+  top: 10px;
+  width: max(576px);
+  position: absolute;
+}
+
+.aboutMe .img-paragraph .imgParagraph {
+  
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 60px;
+  width: 80%;
+}
+.ring {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 5px auto;
+  padding: 5px;
+}
+ 
+ 
+.ring > div {
+  width: 200px;
+  height: 200px;
+  margin: 5px auto;
+  padding: 5px;
+  transform: scale(1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+.outer {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.inner {
+  height: 140px;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+#number {
+  padding: 5px;
+  margin: 5px;
+  font-weight: bold;
+  color: var(--color-dark-active);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+circle {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 8px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+}
+/* A */
+.circle-A {
+  animation: animA 2s linear forwards;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.item-ring {
+  margin: 10px auto;
+  padding: 10px;
+}
+
+
+.imgParagraph > p {
+  margin: 10px 10% 10px 0;
+  font-weight: 400;
+}
+.imgParagraph > button {
+  margin: 10px 0;
+}
+
+
+
+
+  @media (min-width: 679px) and (max-width: 950px) {
+    .aboutMe {
+      padding: 10px;
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .aboutMe > .about-paragraph {
+      margin: 10px;
+    }
+  
+    .aboutMe .img-paragraph {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      margin: 10px;
+    }
+    .aboutMe .img-paragraph .img {
+      border-radius: 50% 50% 0 0;
+      margin: 20px;
+      height: 90vw;
+      width: 80vw;
+      overflow: hidden;
+    }
+    .aboutMe .img-paragraph .img img {
+      background-size: contain;
+    }
+    .aboutMe .img-paragraph .imgParagraph {
+      margin: 10px;
+      padding: 10px;
+      width: 90vw;
+    }
+    .aboutMe .img-paragraph .imgParagraph > p {
+      margin: 10px;
+      padding: 10px;
+    }
+    .aboutMe .img-paragraph .imgParagraph > button {
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    .aboutMe .ring {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 10px;
+      padding: 10px;
+    }
+    
+  }
+  
+  @media (max-width: 678px){
+
+    
+  .aboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 100vw;
+  }
+  .aboutMe .about-paragraph {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+  }
+  .aboutMe h1 {
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+  }
+  .aboutMe .about-paragraph p {
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .aboutMe .img-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .aboutMe .img-paragraph .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 5px;
+    padding: 5px;
+    background-color: #272727;
+    border-radius: 50% 50% 10px 10px;
+    width: 95vw;
+    height: 145vw;
+  }
+  .aboutMe .img-paragraph .img img {
+    margin: 10px;
+    padding: 10px;
+    width: 95vw;
+    background-size: contain;
+  }
+
+  .aboutMe .img-paragraph  .imgParagraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+
+    text-align: center;
+  }
+  .aboutMe .img-paragraph .imgParagraph p {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .img-paragraph .img img {
+    height: 110%;
+    width: 85vw;
+    position: absolute;
+  }
+
+  .aboutMe .ring {
+    display: grid;
+    padding: 5px;
+    margin: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    justify-content: center;
+    align-items: stretch;
+    justify-items: stretch;
+  }
+
+  .aboutMe .ring .item-ring {
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    justify-items: center;
+    width: 47vw;
+    height: 47vw;
+  }
+
+  
+  }

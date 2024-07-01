@@ -1,0 +1,148 @@
+ .services {
+   width: 95%;
+   margin: 60px auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+ }
+ .services .text {
+   width: 100%;
+   padding: 20px;
+   margin: 30px;
+ }
+ .services h1 {
+   font-size: 40px;
+   color: white;
+   font-weight: bold;
+   margin: 20px auto;
+ }
+ .services h2 {
+   color: #fd6f00;
+   font-size: 24px;
+   margin: 20px auto;
+ }
+ .services p {
+   font-size: 20px;
+   margin: 10px auto;
+   color: var(--color-dark-hover);
+ }
+ .services .grid-items {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 30px;
+   margin: 10px;
+   padding: 10px;
+   text-align: center;
+ }
+ .item {
+   background-color: #272727;
+   padding: 20px;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-indent: 24px;
+   align-items: center;
+ }
+
+ .text p,
+ .item i,
+ .item p {
+   font-size: 20px;
+ }
+
+ @media (min-width: 679px) and (max-width: 950px) {
+.services{
+  margin: 20px;
+  padding: 10px
+}
+
+   .services .text {
+     margin: 20px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     padding: 10px;
+   }
+
+   .services .text>* {
+     padding: 10px;
+     margin: 10px;
+   }
+
+   .services .text p {
+     font-size: 20px;
+     text-align: center;
+   }
+
+   .services .grid-items {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 20px;
+     margin: 10px;
+     padding: 10px;
+     text-align: center;
+   }
+
+   .services .grid-items .item {
+     padding: 10px;
+   }
+
+
+ }
+
+ @media (max-width: 678px) {
+
+   .services {
+     margin: 5px;
+     padding: 10px;
+   }
+
+   .services .text {
+     padding: 5px;
+     margin: 5px;
+   }
+
+   .services .text>* {
+     margin: 5px;
+     padding: 5px;
+   }
+
+   .services .grid-items {
+     padding: 5px;
+     margin: 5px;
+     display: grid;
+     grid-template-columns: 1fr;
+     gap: 10px;
+     margin: 15px;
+     padding: 10px;
+   }
+
+   .services .grid-items .item {
+     padding: 10px;
+     margin: 5px;
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-indent: 20px;
+     align-items: center;
+   }
+
+   .item i {
+     font-size: 40px;
+   }
+
+   .item h2 {
+     color: #fd6f00;
+     font-size: 20px;
+     margin: 10px;
+     text-align: center;
+     padding: 5px;
+   }
+
+
+ }

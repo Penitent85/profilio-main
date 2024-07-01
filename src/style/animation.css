@@ -1,0 +1,43 @@
+
+@keyframes animA {
+    100% {
+      /* stroke-dashoffset: calc(472 - 472*0.65); */
+      stroke-dashoffset: 0;
+    }
+  }
+  /* B */
+  .circle-B {
+    animation: animB 2s linear forwards;
+  }
+  @keyframes animB {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  /* C */
+  .circle-C {
+    animation: animC 2s linear forwards;
+  }
+  @keyframes animC {
+    100% {
+      stroke-dashoffset: 80;
+    }
+  }
+  
+  .circle-D {
+    animation: animD 2s linear forwards;
+  }
+  @keyframes animD {
+    100% {
+      stroke-dashoffset: 189;
+    }
+  }
+  
+  .circle-E {
+    animation: animE 2s linear forwards;
+  }
+  @keyframes animE {
+    100% {
+      stroke-dashoffset: 142;
+    }
+  }
