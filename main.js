@@ -2,7 +2,12 @@ const home = document.getElementById("home");
 const services = document.getElementById("services");
 const aboutMe = document.getElementById("aboutMe");
 const portfolio = document.getElementById("portfolio");
-const contactMe = document.getElementById("contactMe");
+const contactMe = document.getElementById("contactMee");
+const homeButton = document.getElementById("homeButton");
+const servicesButton = document.getElementById("servicesButton");
+const aboutMeButton = document.getElementById("aboutMeButton");
+const portfolioButton = document.getElementById("portfolioButton");
+const contactMeButton = document.getElementById("contactMeButton");
 
 // add active class while scrolling
 window.addEventListener("scroll", () => {
@@ -48,15 +53,30 @@ window.addEventListener("scroll", () => {
 home.addEventListener("click", () => {
   window.scrollTo(0, 0);
 });
+homeButton.addEventListener("click", () => {
+  window.scrollTo(0, 0);
+});
 services.addEventListener("click", () => {
+  window.scrollTo(0, 961);
+});
+servicesButton.addEventListener("click", () => {
   window.scrollTo(0, 961);
 });
 aboutMe.addEventListener("click", () => {
   window.scrollTo(0, 1701);
 });
+aboutMeButton.addEventListener("click", () => {
+  window.scrollTo(0, 1701);
+});
 portfolio.addEventListener("click", () => {
   window.scrollTo(0, 2871);
 });
+portfolioButton.addEventListener("click", () => {
+  window.scrollTo(0, 2871);
+});
 contactMe.addEventListener("click", () => {
+  window.scrollTo(0, 4451);
+});
+contactMeButton.addEventListener("click", () => {
   window.scrollTo(0, 4451);
 });
